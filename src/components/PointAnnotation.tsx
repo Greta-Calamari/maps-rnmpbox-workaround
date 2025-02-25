@@ -123,7 +123,7 @@ type Props = BaseProps & {
  * Otherwise, the bitmap might be rendered at an unknown state of the animation.
  */
 class PointAnnotation extends NativeBridgeComponent(
-  React.PureComponent<Props>,
+  React.PureComponent,
   NativeRNMBXPointAnnotationModule,
 ) {
   static defaultProps = {

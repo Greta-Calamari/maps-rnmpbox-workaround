@@ -474,7 +474,7 @@ type Debounced<F> = F & { clear(): void; flush(): void };
  * MapView backed by Mapbox Native GL
  */
 class MapView extends NativeBridgeComponent(
-  React.PureComponent<Props>,
+  React.PureComponent,
   NativeMapViewModule,
 ) {
   static defaultProps: Props = {

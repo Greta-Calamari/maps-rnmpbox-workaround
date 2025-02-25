@@ -70,8 +70,8 @@ function getLayerComponentType(layer: { type: string }) {
 
 function asLayerComponent(layer: MapboxJSONLayer) {
   type GenericProps = { key?: string; id: string };
-  const LayerComponent: typeof React.PureComponent<GenericProps> | null =
-    getLayerComponentType(layer) as typeof React.PureComponent<GenericProps>;
+  const LayerComponent: typeof React.PureComponent | null =
+    getLayerComponentType(layer) as typeof React.PureComponent;
   if (!LayerComponent) {
     return null;
   }

@@ -149,7 +149,7 @@ export type Props = {
  * The shape may be an url or a GeoJSON object
  */
 export class ShapeSource extends NativeBridgeComponent(
-  AbstractSource<Props, NativeProps>,
+  AbstractSource,
   NativeRNMBXShapeSourceModule,
 ) {
   static NATIVE_ASSETS_KEY = 'assets';
