@@ -92,7 +92,6 @@
     "@babel/helper-hoist-variables": "7.24.7",
     "@babel/helper-function-name": "7.24.7",
     "@babel/runtime": "7.25.0",
-    "@react-native/eslint-config": "^0.76.7",
     "@sinonjs/fake-timers": "^8.0.1",
     "@testing-library/react-native": "^13.0.1",
     "@types/debounce": "^1.2.1",
